@@ -3,6 +3,10 @@
 echo Put this file in the source of your GIT repository
 git status
 pause
+cls
+echo Quick Tips :
+echo I suggest pulling at each start of session so you don't overide other people's work ! 
+pause
 :start
 cls
 echo If you want to pull press 1
