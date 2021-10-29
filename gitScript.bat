@@ -9,10 +9,10 @@ echo I suggest pulling at each start of session so you don't overide other peopl
 pause
 :start
 cls
-echo If you want to pull press 1
-echo If you want to push all press 2
-echo If you want repository status press 3
-echo If you want to exit press 'Q'
+echo If you want to pull press [1]
+echo If you want to push all press [2]
+echo If you want repository status press [3]
+echo If you want to exit press [q/Q]
 set /p choicevar=Your choice : 
 if %choicevar%==1 goto pull
 if %choicevar%==2 goto push
