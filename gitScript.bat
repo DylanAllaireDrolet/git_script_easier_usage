@@ -21,7 +21,7 @@ if %choicevar%==q goto exitP
 if %choicevar%==Q goto exitP
 
 
-
+goto start
 :pull
 git pull
 echo Pulled
